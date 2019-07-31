@@ -1,4 +1,4 @@
-package leetcode.arrays.wiggle_sort;
+package leetcode;
 
 import java.util.Arrays;
 
@@ -13,7 +13,7 @@ import java.util.Arrays;
  * @version 0.0.1
  * @since 0.0.1
  */
-public class Solution {
+public class Task_280_Wiggle_Sort {
 
   public static void main(String[] args) {
     wiggleSort(new int[]{3, 5, 2, 1, 6, 4});

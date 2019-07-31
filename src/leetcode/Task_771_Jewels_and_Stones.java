@@ -1,4 +1,4 @@
-package leetcode.hash_table.Jewels_and_Stones_771;
+package leetcode;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -25,7 +25,7 @@ import java.util.Set;
  S and J will consist of letters and have length at most 50.
  The characters in J are distinct.
  */
-public class Solution {
+public class Task_771_Jewels_and_Stones {
 
   public int numJewelsInStonesHashSet(String J, String S) {
     Set<Character> jewels = new HashSet<>();

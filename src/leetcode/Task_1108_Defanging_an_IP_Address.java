@@ -1,11 +1,11 @@
-package leetcode.string.Defanging_an_IP_Address_1108;
+package leetcode;
 
 /**
  * @author Daniil Tyshchenko
  * @version 0.0.1
  * @since 0.0.1
  */
-public class Solution {
+public class Task_1108_Defanging_an_IP_Address {
 
   public static void main(String[] args) {
     System.out.println(defangIPaddr("1.1.1.1").equals("1[.]1[.]1[.]1"));

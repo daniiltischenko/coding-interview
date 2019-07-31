@@ -1,4 +1,4 @@
-package leetcode.stack;
+package leetcode;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -9,7 +9,7 @@ import java.util.Stack;
  * @version 0.0.1
  * @since 0.0.1
  */
-public class Remove_Outermost_Parentheses_1021 {
+public class Task_1021_Remove_Outermost_Parentheses {
 
   public static void main(String[] args) {
     System.out.println(removeOuterParentheses_01("(()())(())").equals("()()()"));

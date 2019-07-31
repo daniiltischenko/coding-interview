@@ -1,4 +1,4 @@
-package leetcode.arrays._532_k_diff_pairs_of_array;
+package leetcode;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,7 +8,7 @@ import java.util.Comparator;
  * @version 0.0.1
  * @since 0.0.1
  */
-public class Solution {
+public class Task_532_k_diff_pairs_of_array {
 
   public static void main(String[] args) {
     System.out.println(findPairs(new int[]{3, 1, 4, 1, 5}, 2));
