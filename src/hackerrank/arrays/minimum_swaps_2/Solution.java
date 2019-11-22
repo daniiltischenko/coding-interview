@@ -15,8 +15,22 @@ public class Solution {
     System.out.println(minimumSwaps(new int[]{1, 3, 5, 2, 4, 6, 7}) == 3);
   }
 
-  static int minimumSwaps(int[] arr) {
-    return 1;
-  }
 
+  static int minimumSwaps(int[] arr) {
+    int count = 0;
+    for (int i = 0; i < arr.length; i++) {
+      if (arr[i] == i+1) {
+        continue;
+      }
+
+      int temp = arr[arr[i] - 1];
+      arr[arr[i] - 1] = arr[i];
+      arr[i] = temp;
+
+      count++;
+      i--;
+
+    }
+    return count;
+  }
 }

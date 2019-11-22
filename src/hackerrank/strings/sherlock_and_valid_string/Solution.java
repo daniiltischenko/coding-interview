@@ -1,6 +1,5 @@
 package hackerrank.strings.sherlock_and_valid_string;
 
-import com.oracle.tools.packager.mac.MacAppBundler;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Collection;
